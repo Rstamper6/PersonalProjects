@@ -4,8 +4,10 @@
     justify-content: center;
 }
 .calcBody {
-    height: 295px;
+    height: 365px;
     width: 90%;
+    padding-bottom: 5px;
+    padding-top: 5px;
     background-color:  #1C1C1C ;
     border: solid 2px black;
     display: flex;
@@ -22,21 +24,29 @@ body{
     height: 75px;
     display: flex;
     justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .answer{
     font-size: 200%;
     padding-top: 0;
     padding: 5px;
+    padding-right: 10px;
 }
 .numBox{
-    background-color: white;
+    background-color: #E8E9EB;
     width: 24%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #clear{
-    background-color: red;
+    background-color: #bf1a2f;
+}
+
+.sym{
+    background-color: #ccad8f;
 }
