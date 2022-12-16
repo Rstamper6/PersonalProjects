@@ -1,0 +1,42 @@
+.calcWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.calcBody {
+    height: 295px;
+    width: 90%;
+    background-color:  #1C1C1C ;
+    border: solid 2px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-color: #CFCFDE ;
+}
+.display{
+    border: solid black 2px;
+    background-color: #7EA3CC ;
+    width: 90%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+}
+.answer{
+    font-size: 200%;
+    padding-top: 0;
+    padding: 5px;
+}
+.numBox{
+    background-color: white;
+    width: 24%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#clear{
+    background-color: red;
+}
